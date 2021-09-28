@@ -69,7 +69,7 @@ module.exports = {
     // with the code because the MiniCssExtractPlugin will extract the
     // CSS in a separate files.
     entry: {
-        app: resolve(CONFIG.fsharpEntry)
+        app: './src/Client/App.fs.js'
     },
     // Add a hash to the output file name in production
     // to prevent browser caching if code changes
